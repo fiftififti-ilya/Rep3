@@ -1,53 +1,47 @@
 /* Шрифты */
-font-family: 'League Spartan', sans-serif;
-font-family: 'Open Sans', sans-serif;
+font-family: "League Spartan", sans-serif;
+font-family: "Open Sans", sans-serif;
 
 /* Шапка сайта */
-.header{
-    background-image: url(./images/BG.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+.header {
+  
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container{
-    margin: 0 166px;
+.container {
+  margin: 0 166px;
 }
 /* Меню сайта */
 
-.header-line{
-    padding-top: 55px;
-    display: flex;
-    align-items: center;
+.header-line {
+  padding-top: 55px;
+  display: flex;
+  align-items: center;
 }
 
-.header-logo{
-    
+.header-logo {
 }
 
-.nav{
-
+.nav {
 }
 
-.nav a{
-    color: #ffffff;
-    text-decoration: none;
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.cart{
-
+.cart {
 }
 
-.phone{
-
+.phone {
 }
 
-.number{
-
+.number {
 }
 
-.phone-text{
-
+.phone-text {
 }
 /* //Меню сайта */
 /*//шапка сайта */
