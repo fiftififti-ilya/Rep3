@@ -1,6 +1,8 @@
 /* Шрифты */
-/* font-family: "League Spartan", sans-serif;
-font-family: "Open Sans", sans-serif; */
+body{
+  font-family: 'League Spartan', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* Шапка сайта */
 .header {
