@@ -104,4 +104,67 @@ body{
   background-color: #894b17;
 }
 /* //Меню сайта */
+
+.header-down{
+  position: relative;
+}
+
+.header-title{
+  margin-bottom: 12px;
+  margin-top: 222px;
+  position: absolute;
+  left: 0;
+  color: #D67E35;
+  font-family: 'Tinos', serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header-subtitle{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-subtitle::after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 61px;
+  background-color: #ffffff;
+  top: 127px;
+  left: 56px;
+}
+
+.header-subtitle::before{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 61px;
+  background-color: #ffffff;
+  top: 127px;
+  left: 308px;
+}
+
+/* кнопка в хедере */
+
+.header-btn{
+
+}
+
+.header-btn a{
+  padding: 14px 28px;
+  background-color: #ff7400;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s linear;
+}
+
+.header-btn a:hover{
+  background-color: #904506;
+}
 /*//шапка сайта */
