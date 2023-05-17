@@ -1,7 +1,7 @@
 /* Шрифты */
-body{
-  font-family: 'League Spartan', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "League Spartan", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Шапка сайта */
@@ -105,31 +105,31 @@ body{
 }
 /* //Меню сайта */
 
-.header-down{
+.header-down {
   position: relative;
 }
 
-.header-title{
+.header-title {
   margin-bottom: 12px;
   margin-top: 222px;
   position: absolute;
   left: 0;
-  color: #D67E35;
-  font-family: 'Tinos', serif;
+  color: #d67e35;
+  font-family: "Tinos", serif;
   font-size: 50px;
   font-weight: 400;
   text-align: center;
 }
 
-.header-subtitle{
+.header-subtitle {
   color: #ffffff;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.header-subtitle::after{
+.header-subtitle::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: 61px;
   background-color: #ffffff;
@@ -137,9 +137,9 @@ body{
   left: 56px;
 }
 
-.header-subtitle::before{
+.header-subtitle::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: 61px;
   background-color: #ffffff;
@@ -149,22 +149,67 @@ body{
 
 /* кнопка в хедере */
 
-.header-btn{
-
+.header-btn {
 }
 
-.header-btn a{
+.header-btn a {
   padding: 14px 28px;
   background-color: #ff7400;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   transition: background-color 0.3s linear;
 }
 
-.header-btn a:hover{
+.header-btn a:hover {
   background-color: #904506;
 }
 /*//шапка сайта */
+
+/* карточки */
+
+.cards {
+}
+
+.cards-holder {
+  display: flex;
+  justify-content: center;
+}
+/* карточка */
+.card {
+  padding: 0 10px;
+  box-shadow: 10px 10px 40px 20px #0000001a;
+  width: 349px;
+  margin-right: 31px;
+  background-color: #fff;
+  margin-top: -80px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.card-desc {
+  text-align: center;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #656363;
+}
+
+.card-title span {
+  color: #bc9060;
+}
