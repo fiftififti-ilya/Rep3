@@ -1,6 +1,6 @@
 /* Шрифты */
-font-family: "League Spartan", sans-serif;
-font-family: "Open Sans", sans-serif;
+/* font-family: "League Spartan", sans-serif;
+font-family: "Open Sans", sans-serif; */
 
 /* Шапка сайта */
 .header {
@@ -16,6 +16,7 @@ font-family: "Open Sans", sans-serif;
 /* Меню сайта */
 
 .header-line {
+  justify-content: space-around;
   padding-top: 55px;
   display: flex;
   align-items: center;
@@ -28,20 +29,77 @@ font-family: "Open Sans", sans-serif;
 }
 
 .nav a {
+  margin-right: 25px;
+
   color: #ffffff;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: color 0.3s linear;
+}
+
+.nav a:hover {
+  color: #d81d1d;
 }
 
 .cart {
+  position: relative;
+  border-right: 1px solid #ffffff;
+  padding-right: 10px;
+  height: 50px;
+}
+
+.cart img {
+  position: absolute;
+  top: 18px;
+  right: 7px;
 }
 
 .phone {
 }
 
+.phone-holder {
+  display: flex;
+  align-items: center;
+}
+
+.phone-img {
+}
+
 .number {
 }
 
+.number a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s linear;
+}
+
+.number a:hover {
+  color: #d81d1d;
+}
+
 .phone-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.btn {
+}
+
+.btn a {
+  padding: 14px 18px;
+  background-color: #ff7400;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-colorcolor 0.3s linear;
+}
+
+.btn a:hover {
+  background-color: #894b17;
 }
 /* //Меню сайта */
 /*//шапка сайта */
