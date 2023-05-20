@@ -332,6 +332,7 @@ body {
 /* наши блюда */
 
 .dishes-title{
+  margin-bottom: 139px;
   padding-top: 132px;
   font-family: 'Tinos', serif;
   font-size: 54px;
@@ -341,4 +342,25 @@ body {
 
 .dishes-title span{
   color: #d67e35;
+}
+
+.burgers{
+  display: flex;
+  justify-content: center;
+}
+
+.burger-image{
+  margin-right: 20px;
+}
+
+.burger-item{
+  margin-bottom: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.burger-text{
+  margin-left: 20px;
+  font-family: 'Tinos', serif;
+  font-size: 26px;
 }
