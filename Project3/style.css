@@ -215,46 +215,45 @@ body {
   color: #bc9060;
 }
 
-.history{
+.history {
   margin-top: 166px;
   padding-bottom: 200px;
 }
 
-.container{
-
+.container {
 }
 
-.history-holder{
+.history-holder {
   display: flex;
   justify-content: space-between;
 }
 
-.history-images{
+.history-images {
   position: relative;
 }
 
-.images-1{
+.images-1 {
   position: absolute;
   z-index: 0;
   top: 34px;
   left: -440px;
 }
 
-.images-2{
+.images-2 {
   position: absolute;
   z-index: 999;
   top: -114px;
   left: -319px;
 }
 
-.images-3{
+.images-3 {
   position: absolute;
   z-index: 0;
   top: 159px;
   left: -253px;
 }
 
-.history-title{
+.history-title {
   margin-top: 21px;
   font-family: "Tinos", serif;
   font-size: 54px;
@@ -263,18 +262,18 @@ body {
   text-align: center;
 }
 
-.history-title span{
+.history-title span {
   color: #d67e35;
 }
 
-.history-description{
+.history-description {
   color: #656363;
   font-size: 16px;
   width: 444px;
   text-align: center;
 }
 
-.history-number{
+.history-number {
   display: flex;
   width: 444px;
   justify-content: center;
@@ -282,40 +281,40 @@ body {
   margin-left: 30px;
 }
 
-.number-item{
+.number-item {
   margin-right: 60px;
   text-align: center;
   font-size: 40px;
   color: #bc9060;
 }
 
-.number-item span{
+.number-item span {
   display: block;
   color: #000;
-} 
+}
 
 /* black block */
 
-.black-block{
+.black-block {
   background-image: url(./images/bgblack.jpg);
   padding: 80px 0;
 }
 
-.left-title{
+.left-title {
   color: #d67e35;
-  font-family: 'Tinos', serif;
+  font-family: "Tinos", serif;
   font-size: 52px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-.left-text{
+.left-text {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
 }
 
-.right-btn{
+.right-btn {
   padding: 14px 8px;
   background-color: #ff7400;
   color: #ffffff;
@@ -323,7 +322,7 @@ body {
   text-decoration: none;
 }
 
-.block-holder{
+.block-holder {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -331,36 +330,114 @@ body {
 
 /* наши блюда */
 
-.dishes-title{
+.dishes-title {
   margin-bottom: 139px;
   padding-top: 132px;
-  font-family: 'Tinos', serif;
+  font-family: "Tinos", serif;
   font-size: 54px;
   font-weight: 400;
   text-align: center;
 }
 
-.dishes-title span{
+.dishes-title span {
   color: #d67e35;
 }
 
-.burgers{
+.burgers {
   display: flex;
   justify-content: center;
 }
 
-.burger-image{
+.burger-image {
   margin-right: 20px;
 }
 
-.burger-item{
+.burger-item {
   margin-bottom: 29px;
   display: flex;
   align-items: center;
 }
 
-.burger-text{
+.burger-text {
   margin-left: 20px;
-  font-family: 'Tinos', serif;
+  font-family: "Tinos", serif;
   font-size: 26px;
+}
+
+/* наше меню(menu) */
+
+.menu {
+  padding-bottom: 100px;
+  background-image: url(./images/bg_menu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-title {
+  padding-top: 98px;
+  padding-bottom: 138px;
+  text-align: center;
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  color: #fff;
+}
+
+/* карточки */
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+
+/* карточка */
+
+.menu-item {
+  margin-right: 10px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  text-align: center;
+  width: 33%;
+}
+
+.menu-image {
+  position: relative;
+}
+
+.price-image {
+  position: absolute;
+  bottom: 0;
+  right: 32px;
+}
+
+.price-420 {
+  position: absolute;
+  bottom: 32px;
+  right: 56px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.menu-text {
+  padding-top: 16px;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+}
+
+.menu-subtext {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 16px;
+}
+
+.menu-button {
+  padding-top: 20px;
+}
+
+.menu-btn {
+  padding: 14px 67px;
+  background-color: #d67e35;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 0px #00000040;
 }
